@@ -16,7 +16,7 @@
 
 </head>
 <body>
-    <header class=" px-36 pt-12">
+    <header class="p-10  md:px-36 md:pt-12">
     <div class="navbar bg-base-100 flex justify-between">
         <div class="navbar-start">
           <div class="dropdown">
@@ -50,11 +50,11 @@
       </div>
     </div>
       
-       <div class="carousel w-full h-[550px] bg-pink-50 mt-12">
+       <div class="carousel w-2/ md:w-full h-[550px] bg-pink-50 mt-12">
         <div id="slide1" class="carousel-item relative w-full">
-            <div class="flex justify-around items-center pl-24">
+            <div class="flex flex-col md:flex-row justify-around items-center p-3 md:pl-24">
               <div>
-                   <h1 class="font-bold text-6xl mb-7">Ride-on R15 V4 <br> with Smile</h1>
+                   <h1 class="font-bold text-xl md:text-6xl mb-7">Ride-on R15 V4 <br> with Smile</h1>
                    <p>Amet minim mollit non deserunt ullamco <br>
                     est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.</p>
                     <a class="btn bg-error text-white px-12 text-xl font-bold mt-6">Purchase</a>
@@ -70,9 +70,9 @@
           </div>
         </div>
         <div id="slide2" class="carousel-item relative w-full">
-          <div class="flex justify-around items-center pl-24">
+          <div class="flex flex-col md:flex-row  justify-around items-center pl-24">
             <div>
-                 <h1 class="font-bold text-6xl mb-7">Ride-on R15 V4 <br> with Smile</h1>
+                 <h1 class="font-bold  text-xl md:text-6xl mb-7">Ride-on R15 V4 <br> with Smile</h1>
                  <p>Amet minim mollit non deserunt ullamco <br>
                   est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.</p>
                   <a class="btn bg-error text-white px-12 text-xl font-bold mt-6">Purchase</a>
@@ -88,27 +88,51 @@
             <a href="#slide3" class="btn btn-circle">❯</a>
           </div>
         </div>
+
         <div id="slide3" class="carousel-item relative w-full">
-          <img
-          src="images/slider/bike2.png" class="w-full">
-          class="w-full" />
+          <div class="flex flex-col md:flex-row  justify-around items-center pl-24">
+            <div>
+                 <h1 class="font-bold  text-xl md:text-6xl mb-7">Ride-on R15 V4 <br> with Smile</h1>
+                 <p>Amet minim mollit non deserunt ullamco <br>
+                  est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.</p>
+                  <a class="btn bg-error text-white px-12 text-xl font-bold mt-6">Purchase</a>
+
+            </div>
+            <div>
+                 <img src="images/slider/bike3.png" class="w-full"/>      
+            </div>
+          </div>
+
           <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide2" class="btn btn-circle">❮</a>
             <a href="#slide4" class="btn btn-circle">❯</a>
           </div>
         </div>
+
+
+
         <div id="slide4" class="carousel-item relative w-full">
-          <img
-          src="images/slider/bike1.png" class="w-full"/>
+          <div class="flex flex-col md:flex-row  justify-around items-center pl-24">
+            <div>
+                 <h1 class="font-bold  text-xl md:text-6xl mb-7">Ride-on R15 V4 <br> with Smile</h1>
+                 <p>Amet minim mollit non deserunt ullamco <br>
+                  est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.</p>
+                  <a class="btn bg-error text-white px-12 text-xl font-bold mt-6">Purchase</a>
+
+            </div>
+            <div>
+                 <img src="images/slider/bike4.png" class="w-full"/>      
+            </div>
+          </div>
 
           <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide3" class="btn btn-circle">❮</a>
-            <a href="#slide1" class="btn btn-circle">❯</a>
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
           </div>
         </div>
       </div>
     </header>
-     <main class="px-36 pt-12">
+     <main class="px-10 pt-2 md:px-36 md:pt-12">
         <section class="text-center flex flex-col justify-center items-center mt-40 ">
             <h1 class="text-5xl font-bold">Fetured Bikes In This Year</h1>
             <p class="text-pink-800 mt-3 mb-10">Best bike collection</p>
@@ -235,7 +259,7 @@
           <h1 class="mb-32 font-bold text-5xl text-center">Frequently Asked <span class="text-red-800">Questions</span></h1>
 
 
-          <div class="card card-side bg-base-100 flex flex-row justify-center items-center gap-9">
+          <div class="card card-side bg-base-100 flex  flex-col md:flex-row justify-center items-center gap-9">
             <figure><img src="images/others/faq.png"alt="Movie" class="h-[500]"></figure>
               <div>
             <div class="card-body">
@@ -290,7 +314,7 @@
                <a href="">Download Now</a>
                <a href="" class="ml-3">License</a>
                </div>
-               <div class="mt-3">
+               <div class="mt-3 flex flex-col">
                 <a href="">About</a>
                 <a href="" class="ml-3">Features</a>
                 <a href="" class="ml-3" >Pricing</a>
